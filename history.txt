@@ -1,0 +1,69 @@
+    1  cd Users/hlela/
+    2  cd..
+    3  cd~
+    4  cd -
+    5  pwd
+    6  cd ../
+    7  clear
+    8  cd hlela/
+    9  cd git-basic-exercises
+   10  git log
+   11  git config --global --add safe.directory C:/Users/hlela/git-basic-exercises
+   12  git log
+   13  ls -a
+   14  git add README.md
+   15  git status
+   16  git rm --cached README.md
+   17  git status
+   18  git add README.md
+   19  git commit -m "initial commit"
+   20  git config --global user.email "ntlahlelakhalima@gmail.com"
+   21  git status
+   22  git commit -m "initial commit"
+   23  git log
+   24  git --global user.name "Ntlahlela Khalima"
+   25  git config --global user.name "Ntlahlela Khalima"
+   26  git log
+   27  nano README.md
+   28  cat README.md
+   29  git status
+   30  git commit -m "second commit"
+   31  nano README.me
+   32  nano README.md
+   33  cat README.md
+   34  git commit -m "Third commit"
+   35  git log -all -graph
+   36  git log -a -graph
+   37  git log -a -g
+   38  git log
+   39  git status
+   40  git add README.md
+   41  git commit -m "Second commit"
+   42  git log
+   43  nano README.md
+   44  cat README.MD
+   45  git add README.md
+   46  git commit -m "Third commit"
+   47  git log
+   48  q
+   49  git checkout  8ab656766a66a985c4f864dbc24343bee24729c9
+   50  cat README.md
+   51  git checkout master
+   52  cat README.md
+   53  git branch milkshake-flavours
+   54  git branch
+   55  git checkout milkshake-flavours
+   56  git branch
+   57  nano milkshakes.md
+   58  git statud
+   59  git status
+   60  git add milkshakes.md
+   61  git commit -m "added initial flavours"
+   62  git log
+   63  git checkout master
+   64  git log
+   65  git branch history
+   66  git checkout history
+   67  git log
+   68  git branch
+   69  history > history.txt
